@@ -1,0 +1,9 @@
+.idea/
+custom_dataset/train/Live/
+custom_dataset/train/Printed_Attack/
+custom_dataset/train/Replay_Attack/
+custom_dataset/test/Live/
+custom_dataset/test/Printed_Attack/
+custom_dataset/test/Replay_Attack/
+evaluation_faces/
+SIV Project Demo.mp4

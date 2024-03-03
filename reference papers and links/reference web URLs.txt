@@ -1,0 +1,4 @@
+https://towardsdatascience.com/mouse-control-facial-movements-hci-app-c16b0494a971
+https://github.com/rcsmit/python_scripts_rcsmit/tree/master/extras
+https://www.kaggle.com/datasets/attentionlayer241/celeba-spoof-for-face-antispoofing
+https://www.kaggle.com/datasets/tapakah68/anti-spoofing
