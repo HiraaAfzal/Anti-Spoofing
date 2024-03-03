@@ -49,4 +49,23 @@ After training and evaluating classifier for liveness detection, used the traine
    6. Predict liveness class from trained classifier as Live, Printed Attack or Replay Attack
 5. Show the liveness results.
 
+## Results
+As above (at dataset section) we let you that we created our own dataset i.e., 15 to 20 seconds videos with different poses, 2555 printed images, 757 replay attack images and 2645 real\live faces. After training the model we performed the test cases on the model and evaluated its results by using the metrics parameters.ie., accuracy, precision, recall, and F1-score, confusion matrix, and classification report, results are mentioned in the below figures and table.
+
+<br>
+<img align="center" src="diagrams/table.png" alt="Classifier Evaluation Results">
+<p align="center">Table 1: Classifier Evaluation Results</p>
+<br>
+
+<br>
+<img align="center" src="diagrams/confusion_matrix.png" alt="Confusion Matrix">
+<p align="center">Fig. 3: Confusion Matrix</p>
+<br>
+
+<br>
+<img align="center" src="diagrams/predictions.png" alt="Predictions on Unseen Faces">
+<p align="center">Fig. 4: Predictions on Unseen Faces</p>
+
+## Conclusion
+Our Project aims to address the problem of spoofing attacks in face recognition systems by proposing an extra security layer of face anti-spoofing through the implementation of real-time face liveness detection. This model uses two anti-spoofing techniques: Eye Blink Detection and Color Space Histogram Concatenation, which are combined to provide robust anti-spoofing protection. The performance of the model is evaluated using metrics such as accuracy, precision, recall, and F1-score, confusion matrix, and classification report. The model tested in real-time using a webcam, having a limitation, its accuracy could be vary according to the lighting condition. The model can detect both image and video-based spoofing attacks. Overall, this project provides a practical solution to the problem of face anti-spoofing in face recognition systems, which is essential for ensuring access and security.
 
